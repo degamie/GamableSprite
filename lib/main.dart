@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MyApp(
+    darkTheme:ThemeData.dark().copywith.(Text:Googlefonts.bungeeInLinetextTheme(),
+                                         scaffoldBackgroundColor:Colors.black(),
+  ));
 }
 
 class MyApp extends StatelessWidget {
