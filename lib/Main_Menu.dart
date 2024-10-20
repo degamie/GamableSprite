@@ -16,6 +16,8 @@ class MainMenu extends StatelessWidget{
               Padding(
               padding: const EdgeInsects.all(Vertical:50),
               child: Text("GamableSprite_Space"),
+                mainAxisAlignment:MainAxisAlignment.center,
+              
           )
           )
         )
