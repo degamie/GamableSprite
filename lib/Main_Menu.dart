@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class MainMenu extends StatelessWidget{
-  const MainMenu({Key? key}):super(Key:Key);
+  const MainMenu({Key?key}):super(Key:Key);
   Widget build(BuildContext context){
     Scaffold(
       body:Center(
